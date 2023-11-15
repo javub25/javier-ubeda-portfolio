@@ -31,9 +31,9 @@ const Projects = () =>
     return (
         <>
             <div className="tablet:w-full text-left mx-auto px-4 mt-32">
-                <header className="w-[210px] flex items-center mx-auto mobile:mx-0 justify-between ">
+                <header className="w-[210px] flex items-center mx-auto mobile:mx-0 justify-between">
                     <FontAwesomeIcon icon={faCode} className="text-xl text-white mt-2" />
-                    <h1 id="Projects" className="text-4xl text-white">Proyectos&nbsp;&nbsp;</h1>
+                    <h1 id="Projects" className="text-4xl text-white" data-section="projects" data-value="title">Proyectos&nbsp;&nbsp;</h1>
                 </header>
 
                 <section className="grid tablet:w-full mt-4" style={{paddingTop: '11px', gridTemplateColumns: 'repeat(auto-fit,minmax(min(30rem,100%),1fr)'}}>
@@ -50,13 +50,13 @@ const Projects = () =>
                                     <h1 className="text-3xl text-white">TastyWorld</h1>
                                 </header>
                                 <section className="text-white mt-4">
-                                    <p>Aplicación Web diseñada para consultar y guardar recetas internacionales.</p>
+                                    <p data-section="projects" data-value="first-project-description">Aplicación Web diseñada para consultar y guardar recetas internacionales.</p>
                                     <div className="flex w-full justify-between flex-wrap mt-4">
-                                        <span className="bg-black px-4 text-white tablet:mt-4">MealDB Api</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">NodeJS</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">Tailwindcss</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">React</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">Animate.css</span>
+                                        <span className="bg-black px-4 text-white mt-4">MealDB Api</span>
+                                        <span className="bg-black px-4 text-white mt-4">NodeJS</span>
+                                        <span className="bg-black px-4 text-white mt-4">Tailwindcss</span>
+                                        <span className="bg-black px-4 text-white mt-4">React</span>
+                                        <span className="bg-black px-4 text-white mt-4">Animate.css</span>
                                         <span className="bg-black px-4 text-white mt-4">LocalStorage</span>
                                     </div>
                                 </section>
@@ -71,7 +71,7 @@ const Projects = () =>
                             </div>
                         </div> 
                     </div>
-                    <div value={"Tenzies"} className="pr-4 tablet:pr-0 pt-4" onClick={showDetails}>
+                    <div value={"Tenzies"} className="pr-4 tablet:pr-0 pt-4" onClick={(e) => showDetails(e)}>
                         <div className="relative" style={{height: '500px'}} >
                             <img src={Tenzies} className="w-full rounded-xl" style={{objectFit: 'cover', height: '100%'}}/>
                             <FontAwesomeIcon icon={faHandPointer} className="text-3xl text-white absolute top-4 right-4 rounded-md bg-blue-500 p-2"/>
@@ -84,15 +84,15 @@ const Projects = () =>
                                     <h1 className="text-3xl text-white">Tenzies</h1>
                                 </header>
                                 <section className="text-white mt-4">
-                                    <p>Juego diseñado para seleccionar 10 números que sean iguales.
+                                    <p data-section="projects" data-value="second-project-description">Juego diseñado para seleccionar 10 números que sean iguales.
                                       Tienes tantas oportunidades como necesites hasta encontrarlos.
                                     </p>
                                     <div className="flex w-full justify-between flex-wrap mt-4">
-                                        <span className="bg-black px-4 text-white tablet:mt-4">NodeJS</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">React</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">Tailwindcss</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">Animate.css</span>
-                                        <span className="bg-black px-4 text-white tablet:mt-4">LocalStorage</span>
+                                        <span className="bg-black px-4 text-white mt-4">NodeJS</span>
+                                        <span className="bg-black px-4 text-white mt-4">React</span>
+                                        <span className="bg-black px-4 text-white mt-4">Tailwindcss</span>
+                                        <span className="bg-black px-4 text-white mt-4">Animate.css</span>
+                                        <span className="bg-black px-4 text-white mt-4">LocalStorage</span>
                                     </div>
                                 </section>
                                 <footer className="w-[80px] flex justify-between mt-8 pb-4">
@@ -106,7 +106,7 @@ const Projects = () =>
                             </div>
                         </div>
                     </div>
-                    <div value={"TodoList"} className="pt-4 pr-4 tablet:pr-0" onClick={showDetails}>
+                    <div value={"TodoList"} className="pt-4 pr-4 tablet:pr-0" onClick={(e)=> showDetails(e)}>
                         <div className="relative" style={{height: '500px'}}>
                             <img src={TodoList} className="w-full rounded-xl"  style={{objectFit: 'cover', height: '100%'}}/>
                             <FontAwesomeIcon icon={faHandPointer} className="text-3xl text-white absolute top-4 right-4 rounded-md bg-blue-500 p-2"/>
@@ -119,22 +119,22 @@ const Projects = () =>
                                         <h1 className="text-3xl text-white">TodoList</h1>
                                 </header>
                                 <section className="text-white mt-4">
-                                        <p>Aplicación Web diseñada para guardar y consultar una lista de tareas.</p>
+                                        <p data-section="projects" data-value="third-project-description">Aplicación Web diseñada para guardar y consultar una lista de tareas.</p>
                                         <div className="flex w-full justify-between flex-wrap mt-4">
-                                            <span className="bg-black px-4 text-white tablet:mt-4">NodeJS</span>
-                                            <span className="bg-black px-4 text-white tablet:mt-4">React</span>
-                                            <span className="bg-black px-4 text-white tablet:mt-4">Animista CSS</span>
-                                            <span className="bg-black px-4 text-white tablet:mt-4">Animate.css</span>
-                                            <span className="bg-black px-4 text-white tablet:mt-4">LocalStorage</span>
+                                            <span className="bg-black px-4 text-white mt-4">NodeJS</span>
+                                            <span className="bg-black px-4 text-white mt-4">React</span>
+                                            <span className="bg-black px-4 text-white mt-4">Animista CSS</span>
+                                            <span className="bg-black px-4 text-white mt-4">Animate.css</span>
+                                            <span className="bg-black px-4 text-white mt-4">LocalStorage</span>
                                         </div>
                                 </section>
                                 <footer className="w-[80px] flex justify-between mt-8 pb-4">
-                                        <a href="https://github.com/javub25/TodoList" title="GitHub TodoList" target="_blank">
-                                            <FontAwesomeIcon icon={faGithub} className="text-3xl text-white"/>
-                                        </a>
-                                        <a href="https://todo-list-javi.netlify.app/" title="Website" target="_blank">
-                                            <FontAwesomeIcon icon={faGlobe} className="text-3xl text-white"/>
-                                        </a>
+                                    <a href="https://github.com/javub25/TodoList" title="GitHub TodoList" target="_blank">
+                                        <FontAwesomeIcon icon={faGithub} className="text-3xl text-white"/>
+                                    </a>
+                                    <a href="https://todo-list-javi.netlify.app/" title="Website" target="_blank">
+                                        <FontAwesomeIcon icon={faGlobe} className="text-3xl text-white"/>
+                                    </a>
                                 </footer>
                             </div>
                         </div>

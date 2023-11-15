@@ -19,7 +19,7 @@ function App() {
       </section>
 
       <footer className="p-16">
-          <p className="text-white">2023 Javier Úbeda Portafolio</p>
+          <p className="text-white" data-section="footer" data-value="description">2023 Javier Úbeda Portafolio</p>
       </footer>
     </>
   )

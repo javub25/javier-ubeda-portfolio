@@ -14,10 +14,10 @@ const AboutMe = () =>
                 <div className="px-4 mobile:px-0">
                     <header className="mobile:pt-8">
                         <h1 id="AboutMe" className="text-left text-4xl text-white">Javier Úbeda</h1>
-                        <h2 className="text-left text-2xl text-white">Frontend Developer</h2>
+                        <h2 className="text-left text-2xl text-white" data-section="profile" data-value="rol">Frontend Developer</h2>
                     </header>
                     <section className="mt-4">
-                        <p className="text-white text-left">
+                        <p className="text-white text-left" data-section="profile" data-value="description">
                             Soy una persona que ve el mundo de desarrollo web como único e innovador.
                             Me encanta dedicarle tiempo para ir mejorando en este sector.
                             Si puedes pensarlo puedes programarlo!

@@ -7,9 +7,9 @@ const Contact = () =>
 {
     return (
         <div className="tablet:w-full text-left px-4 mt-32">
-                <header className="w-[210px] flex items-center mx-auto mobile:mx-0 justify-between">
+                <header className="w-[200px] flex items-center mx-auto mobile:mx-0 justify-evenly">
                     <FontAwesomeIcon icon={faAddressBook} className="text-xl text-white mt-2" />
-                    <h1 id="Contact" className="text-4xl text-white">Contacto&nbsp;&nbsp;&nbsp;</h1>
+                    <h1 id="Contact" className="text-4xl text-white" data-section="navbar" data-value="fourth-item">Contacto</h1>
                 </header>
 
                 <section className="mt-8 grid contactCols place-items-center mobile:gap-4" style={{paddingTop: '11px', justifyContent: 'center'} }>
