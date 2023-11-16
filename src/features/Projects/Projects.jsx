@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import {faHandPointer} from '@fortawesome/free-regular-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import TastyWorld from '../../assets/img/projects/TastyWorld.png'
-import Tenzies from '../../assets/img/projects/tenzies.png'
-import TodoList from '../../assets/img/projects/todoList.png'
+import TastyWorld from '@assets/projects/TastyWorld.png'
+import Tenzies from '@assets/projects/tenzies.png'
+import TodoList from '@assets/projects/todoList.png'
 
 
 const Projects = () => 

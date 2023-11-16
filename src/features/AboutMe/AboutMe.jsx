@@ -1,4 +1,4 @@
-import aboutMe from '../../assets/img/aboutMe/aboutMe-photo.jpg'
+import aboutMe from '@assets/aboutMe/aboutMe-photo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faHtml5, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons'
 

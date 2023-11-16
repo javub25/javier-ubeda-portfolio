@@ -1,9 +1,10 @@
-import enFlag from '../../assets/img/flags/gb-eng.svg'
-import esFlag from '../../assets/img/flags/es.svg'
-import Changelanguage from "../../scripts/getlanguage.jsx";
+import enFlag from '@assets/flags/gb-eng.svg'
+import esFlag from '@assets/flags/es.svg'
+import Changelanguage from "@scripts/getlanguage.jsx";
 
 const ItemsNav = () => 
 {
+    
     return (
         <>
             <li className="text-white text-xl mobile:py-1" data-section="navbar" data-value="first-item">
@@ -19,10 +20,10 @@ const ItemsNav = () =>
                 <a href="#Contact">Contacto</a>
             </li>
             <li className="tablet:mt-4 w-[70px] flex justify-between items-center">
-                <div data-flaglang="es" onClick={(e) => Changelanguage(e)}>
+                <div data-flaglang="es" onClick={(e) => Changelanguage(e.target.parentElement.dataset.flaglang)}>
                     <img width="30" src={esFlag}/>
                 </div>
-                <div data-flaglang="en" onClick={(e) => Changelanguage(e)}>
+                <div data-flaglang="en" onClick={(e) => Changelanguage(e.target.parentElement.dataset.flaglang)}>
                     <img width="30" src={enFlag}/>
                 </div>
             </li>
