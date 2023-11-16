@@ -11,6 +11,14 @@ export default defineConfig({
         find: '@languages',
         replacement: path.resolve(path.join(__dirname, '/src/languages')),
       },
+      {
+        find: '@scripts',
+        replacement: path.resolve(path.join(__dirname, '/src/scripts')),
+      },
+      {
+        find: '@assets',
+        replacement: path.resolve(path.join(__dirname, '/src/assets/img')),
+      },
     ]
   }
 })
