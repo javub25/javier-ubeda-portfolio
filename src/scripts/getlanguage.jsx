@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const getlanguage = (lang) => 
 {
-    axios.get(`./src/languages/${lang}.json`)
+    axios.get(`/languages/${lang}.json`)
         .then((resolve) => {
             const textsToChange = document.querySelectorAll("[data-section]");
 
