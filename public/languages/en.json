@@ -1,0 +1,32 @@
+{
+    "navbar": {
+        "first-item": "About Me",
+        "second-item": "Experience",
+        "third-item": "Projects", 
+        "fourth-item": "Contact"
+    },
+    "profile": {
+        "rol": "Frontend Developer",
+        "description": "I am a person who sees the world of web development as unique and innovative. I love to dedicate time to improve myself in this sector. If you can think it you can program it!"
+    },
+    "experience": {
+        "first-job-title": "Web Designer",
+        "first-job-date": "apr.2015 - jul.2015",
+        "first-job-task": "Development with <b>WordPress</b>.<br>eCommerce with <b>WooCommerce</b>.",
+        "second-job-title": "CyberSecurity Analyst Junior",
+        "second-job-date": "nov.2020 - jul.2021",
+        "second-job-task": "Display of alerts with <b>Grafana</b>.<br>Deployment of containers with <b>Docker</b>.",
+        "last-job-title": "Web Developer",
+        "last-job-date": "oct.2021 - present day",
+        "last-job-task": "Frontend Development with <b>React</b>.<br>Version control usage <b>GIT</b>."
+    },
+    "projects": {
+        "title":"Projects&nbsp;&nbsp;&nbsp;&nbsp;",
+        "first-project-description":"Web application designed to consult and save international recipes.",
+        "second-project-description":"Game designed to select 10 numbers that are the same. You have as many chances as you need to find them.",
+        "third-project-description":"Web application designed to save and consult a list of tasks."
+    },
+    "footer": {
+        "description": "2023 Javier Úbeda Portfolio"
+    }
+}
