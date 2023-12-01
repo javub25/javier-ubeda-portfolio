@@ -7,7 +7,8 @@
     },
     "profile": {
         "rol": "Frontend Developer",
-        "description": "I am a person who sees the world of web development as unique and innovative. I love to dedicate time to improve myself in this sector. If you can think it you can program it!"
+        "description": "I am a person who sees the world of web development as unique and innovative. I love to dedicate time to improve myself in this sector. If you can think it you can program it!",
+        "resume": "Resume"
     },
     "experience": {
         "first-job-title": "Web Designer",

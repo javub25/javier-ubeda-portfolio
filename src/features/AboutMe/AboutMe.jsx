@@ -24,12 +24,19 @@ const AboutMe = () =>
                         </p>
                     </section>
 
-                    <footer className="mt-4 w-[160px] flex justify-between text-left">
-                        <FontAwesomeIcon icon={faHtml5} className="text-white text-3xl"/>
-                        <FontAwesomeIcon icon={faCss3Alt} className="text-white text-3xl"/>
-                        <FontAwesomeIcon icon={faJs} className="text-white text-3xl"/>
-                        <FontAwesomeIcon icon={faReact} className="text-white text-3xl" />
+                    <footer className="mt-4 w-[160px]">
+                        <section className="flex justify-between text-left">
+                            <FontAwesomeIcon icon={faHtml5} className="text-white text-3xl"/>
+                            <FontAwesomeIcon icon={faCss3Alt} className="text-white text-3xl"/>
+                            <FontAwesomeIcon icon={faJs} className="text-white text-3xl"/>
+                            <FontAwesomeIcon icon={faReact} className="text-white text-3xl" />
+                        </section>
+                        <footer className="mt-8">
+                            <a href="https://drive.google.com/file/d/15qJrRPqazs1T0CzGvENoGxQ-FzSsZG00/view?usp=sharing" className="w-[130px] bg-blue-700 p-2 block text-white"
+                                target="_blank" data-section="profile" data-value="resume">Currículum</a>
+                        </footer>
                     </footer>
+                    
                 </div>               
             </div>
         </>

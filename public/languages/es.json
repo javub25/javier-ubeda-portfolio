@@ -7,7 +7,8 @@
     },
     "profile": {
         "rol": "Desarrollador Frontend",
-        "description": "Soy una persona que ve el mundo de desarrollo web como único e innovador. Me encanta dedicarle tiempo para ir mejorando en este sector. Si puedes pensarlo puedes programarlo!"
+        "description": "Soy una persona que ve el mundo de desarrollo web como único e innovador. Me encanta dedicarle tiempo para ir mejorando en este sector. Si puedes pensarlo puedes programarlo!",
+        "resume": "Currículum"
     },
     "experience": {
         "first-job-title": "Maquetador Web",
