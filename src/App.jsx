@@ -3,25 +3,21 @@ import Header from './features/Header/Header.jsx'
 import AboutMe from './features/AboutMe/AboutMe.jsx'
 import Experience from './features/Experience/Experience.jsx'
 import Projects from './features/Projects/Projects.jsx'
-import Contact from './features/Contact/Contact.jsx'
+import Footer from "./features/Footer/Footer.jsx"
 
 
 
 function App() {
   return (
-    <>
+    <main className="mx-auto w-full xl:w-[900px]">
       <Header />
       <section>
           <AboutMe />
           <Experience />
           <Projects />
-          <Contact />
       </section>
-
-      <footer className="p-16">
-          <p className="text-white" data-section="footer" data-value="description">2023 Javier Úbeda Portafolio</p>
-      </footer>
-    </>
+      <Footer />
+    </main>
   )
 }
 
