@@ -8,6 +8,10 @@ export default defineConfig({
   resolve: {
     alias: [
       {
+        find: '@features',
+        replacement: path.resolve(path.join(__dirname, '/src/features')),
+      },
+      {
         find: '@languages',
         replacement: path.resolve(path.join(__dirname, '/src/languages')),
       },
