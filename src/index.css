@@ -2,15 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-.contactCols
-{
-    grid-template-columns: 210px 125px 125px 125px;
+
+@media (min-width: 800px){
+    .xl\:w-\[800px\] {
+        width: 800px;
+    }   
+}
+@media (min-width: 900px){
+    .xl\:w-\[900px\] {
+        width: 900px;
+    }    
 }
 
-@media only screen and (max-width: 610px)
+body
 {
-    .contactCols
-    {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+  background-color: rgb(92, 109, 132);
+  background: -webkit-linear-gradient(to right, #2c3e50, rgb(92, 109, 132));  /* Chrome 10-25, Safari 5.1-6*/
+  background: linear-gradient(to right, #2c3e50, rgb(92, 109, 132)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
+
+
+
+/*Estilos projectos sliders*/
+.card .front {
+   transform: perspective(500px) rotateY(0);
+   backface-visibility: hidden;
+   transition: all 1s;
+}
+.card .back {
+  transform: perspective(500px) rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all 1s;
+}
+.card:hover .front {
+  transform: perspective(500px) rotateY(180deg);
+}
+.card:hover .back {
+  transform: perspective(500px) rotateY(360deg);
+}
+   
+
+  
