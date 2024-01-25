@@ -7,25 +7,28 @@
     },
     "profile": {
         "rol": "Frontend Developer",
-        "description": "I am a person who sees the world of web development as unique and innovative. I love to dedicate time to improve myself in this sector. If you can think it you can program it!",
+        "description": "My name is Javier, although people who know me call me Javi. I started studying a Higher Degree in Computer Systems Administration in Networks",
+        "cybersecurity": "After working for a cybersecurity company, I switched to web development as a frontend developer at Ogilvy. within the company Ogilvy.",
+        "react": "During my work experience, I have been training myself in the JavaScript React library, being able to make my first personal projects.",
+        "goal": "My goal is to be able to offer a better user experience, giving better performance optimization and response time.",
         "resume": "Resume"
     },
     "experience": {
         "first-job-title": "Web Designer",
         "first-job-date": "apr.2015 - jul.2015",
-        "first-job-task": "Development with <b>WordPress</b>.<br>eCommerce with <b>WooCommerce</b>.",
+        "first-job-task": "Business landing page creation with <b>WordPress</b> and e-commerce management with <b>WooCommerce</b>.",
         "second-job-title": "CyberSecurity Analyst Junior",
         "second-job-date": "nov.2020 - jul.2021",
-        "second-job-task": "Display of alerts with <b>Grafana</b>.<br>Deployment of containers with <b>Docker</b>.",
-        "last-job-title": "Web Developer",
-        "last-job-date": "oct.2021 - present day",
-        "last-job-task": "Frontend Development with <b>React</b>.<br>Version control usage <b>GIT</b>."
+        "second-job-task": "Security alert monitoring of heterogeneous systems with <b>Grafana</b>.",
+        "last-job-title": "Frontend Developer",
+        "last-job-date": "oct. 2021 - present day",
+        "last-job-task": "Frontend Development HTML / CSS / React"
     },
     "projects": {
         "title":"Projects&nbsp;&nbsp;&nbsp;&nbsp;",
-        "first-project-description":"Web application designed to consult and save international recipes.",
-        "second-project-description":"Game designed to select 10 numbers that are the same. You have as many chances as you need to find them.",
-        "third-project-description":"Web application designed to save and consult a list of tasks."
+        "first-project-description":"Consult and save recipes from different countries to consult them at any time!",
+        "second-project-description":"Find and select 10 matching numbers, the game will display a confetti when the user has won!",
+        "project-codebtn": "Code"
     },
     "footer": {
         "description": "2023 Javier Úbeda Portfolio"

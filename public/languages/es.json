@@ -7,25 +7,28 @@
     },
     "profile": {
         "rol": "Desarrollador Frontend",
-        "description": "Soy una persona que ve el mundo de desarrollo web como único e innovador. Me encanta dedicarle tiempo para ir mejorando en este sector. Si puedes pensarlo puedes programarlo!",
+        "description": "Me llamo Javier, aunque las personas que me conocen me llaman Javi. Empecé estudiando un Grado Superior de Administración de Sistemas Informáticos en Redes.",
+        "cybersecurity": "Después de pasar por una empresa de ciberseguridad, cambie a la rama del desarrollo web como frontend dentro de la empresa Ogilvy.",
+        "react": "Durante mi experiencia laboral, he estado formándome en la librería React de JavaScript, pudiendo hacer mis primeros proyectos personales.", 
+        "goal": "Mi objetivo es poder ofrecer una mejor experiencia de usuario, dando una mejor optimización de rendimiento y tiempo de respuesta.",
         "resume": "Currículum"
     },
     "experience": {
         "first-job-title": "Maquetador Web",
         "first-job-date": "abr.2015 - jul.2015",
-        "first-job-task": "Desarrollo con <b>WordPress</b>.<br>eCommerce con <b>WooCommerce</b>.",
+        "first-job-task": "Creación de landing empresarial con <b>WordPress</b> y gestión de e-commerce con <b>WooCommerce</b>.",
         "second-job-title": "Analista de CiberSeguridad Junior",
         "second-job-date": "nov.2020 - jul.2021",
-        "second-job-task": "Visualización de alertas con <b>Grafana</b>.<br>Despliegue de contenedores con <b>Docker</b>.",
-        "last-job-title": "Desarrollador web",
-        "last-job-date": "oct.2021 - actualidad",
-        "last-job-task": "Desarrollo Frontend con <b>React</b>.<br>Uso de control de versiones <b>GIT</b>."
+        "second-job-task": "Monitoreo de alertas de seguridad de sistemas heterogéneos con <b>Grafana</b>.",
+        "last-job-title": "Desarrollador Frontend",
+        "last-job-date": "oct. 2021 - actualidad",
+        "last-job-task": "Desarrollo Frontend HTML / CSS / React"
     },
     "projects": {
         "title": "Proyectos&nbsp;&nbsp;",
-        "first-project-description": "Aplicación Web diseñada para consultar y guardar recetas internacionales.",
-        "second-project-description": "Juego diseñado para seleccionar 10 números que sean iguales. Tienes tantas oportunidades como necesites hasta encontrarlos.",
-        "third-project-description": "Aplicación Web diseñada para guardar y consultar una lista de tareas."
+        "first-project-description": "¡Consulta y guarda recetas de diferentes países para consultarlas en cualquier momento!",
+        "second-project-description": "¡Encuentra y selecciona 10 números iguales, el juego mostrará un confetti cuando el usuario haya ganado!",
+        "project-codebtn": "Código"
     },
     "footer": {
         "description": "2023 Javier Úbeda Portafolio"
