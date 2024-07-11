@@ -3,23 +3,24 @@
         "first-item": "Sobre Mi",
         "second-item": "Experiencia",
         "third-item": "Proyectos", 
-        "fourth-item": "Contacto"
+        "fourth-item": "Contacto",
+        "five-item": "Habilidades"
     },
     "profile": {
         "rol": "Desarrollador Frontend",
-        "description": "Me llamo Javier, aunque las personas que me conocen me llaman Javi. Empecé estudiando un Grado Superior de Administración de Sistemas Informáticos en Redes.",
-        "cybersecurity": "Después de pasar por una empresa de ciberseguridad, cambie a la rama del desarrollo web como frontend dentro de la empresa Ogilvy.",
-        "react": "Durante mi experiencia laboral, he estado formándome en la librería React de JavaScript, pudiendo hacer mis primeros proyectos personales.", 
-        "goal": "Mi objetivo es poder ofrecer una mejor experiencia de usuario, dando una mejor optimización de rendimiento y tiempo de respuesta.",
+        "description": "¡Hola a todos, encantado de conoceros! 👋<br/>Mi nombre es Javier, aunque las personas que me conocen me llaman Javi.",
+        "cybersecurity":"Tras adquirir experiencia en una empresa de ciberseguridad, decidí orientar mi carrera hacia el desarrollo web en Ogilvy.",
+        "react": "👨‍💻 Compaginando mi trayectoria laboral, me he formado en la librería React de JavaScript, lo que me ha permitido dar soluciones a proyectos de desarrollo de manera más eficiente.", 
+        "goal": "Mi objetivo profesional es ofrecer una experiencia de usuario optimizada, valorando positivamente la calidad y robustez del código para una mantenibilidad a mayor escala con el equipo.<br/><br/>#NuncaDejesDeCrecer 🚀",
         "resume": "Currículum"
     },
     "experience": {
         "first-job-title": "Maquetador Web",
         "first-job-date": "abr.2015 - jul.2015",
-        "first-job-task": "Creación de landing empresarial con <b>WordPress</b> y gestión de e-commerce con <b>WooCommerce</b>.",
-        "second-job-title": "Analista de CiberSeguridad Junior",
+        "first-job-task": "Creación de landing empresarial y gestión de ecommerce.",
+        "second-job-title": "Analista de CiberSeguridad",
         "second-job-date": "nov.2020 - jul.2021",
-        "second-job-task": "Monitoreo de alertas de seguridad de sistemas heterogéneos con <b>Grafana</b>.",
+        "second-job-task": "Monitoreo de alertas de seguridad de sistemas heterogéneos.",
         "last-job-title": "Desarrollador Frontend",
         "last-job-date": "oct. 2021 - actualidad",
         "last-job-task": "Desarrollo Frontend HTML / CSS / React"
@@ -28,9 +29,10 @@
         "title": "Proyectos&nbsp;&nbsp;",
         "first-project-description": "¡Consulta y guarda recetas de diferentes países para consultarlas en cualquier momento!",
         "second-project-description": "¡Encuentra y selecciona 10 números iguales, el juego mostrará un confetti cuando el usuario haya ganado!",
+        "three-project-description": "Ecommerce donde los usuarios pueden filtrar productos por precio o categoría, ver historial de compras y dejar valoraciones.",
         "project-codebtn": "Código"
     },
     "footer": {
-        "description": "2023 Javier Úbeda Portafolio"
+        "description": "2024 Javier Úbeda Portafolio"
     }
 }

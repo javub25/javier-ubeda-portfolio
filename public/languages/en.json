@@ -3,23 +3,24 @@
         "first-item": "About Me",
         "second-item": "Experience",
         "third-item": "Projects", 
-        "fourth-item": "Contact"
+        "fourth-item": "Contact",
+        "five-item": "Skills"
     },
     "profile": {
         "rol": "Frontend Developer",
-        "description": "My name is Javier, although people who know me call me Javi. I started studying a Higher Degree in Computer Systems Administration in Networks",
-        "cybersecurity": "After working for a cybersecurity company, I switched to web development as a frontend developer at Ogilvy. within the company Ogilvy.",
-        "react": "During my work experience, I have been training myself in the JavaScript React library, being able to make my first personal projects.",
-        "goal": "My goal is to be able to offer a better user experience, giving better performance optimization and response time.",
+        "description": "Hello everyone, nice to meet you! 👋<br/> My name is Javier, although people who know me call me Javi.",
+        "cybersecurity": "After gaining experience in a cybersecurity company, I decided to focus my career on web development at Ogilvy.",
+        "react": "👨‍💻 In addition to my professional career, I have been trained in the JavaScript React library, which has allowed me to provide solutions to development projects in a more efficient way.",
+        "goal": "My professional goal is to offer an optimised user experience, valuing positively the quality and robustness of the code for a larger scale maintainability with the team.<br/><br/>#NeverStopGrowing 🚀",
         "resume": "Resume"
     },
     "experience": {
         "first-job-title": "Web Designer",
         "first-job-date": "apr.2015 - jul.2015",
-        "first-job-task": "Business landing page creation with <b>WordPress</b> and e-commerce management with <b>WooCommerce</b>.",
-        "second-job-title": "CyberSecurity Analyst Junior",
+        "first-job-task": "Business landing page creation and ecommerce management.",
+        "second-job-title": "CyberSecurity Analyst",
         "second-job-date": "nov.2020 - jul.2021",
-        "second-job-task": "Security alert monitoring of heterogeneous systems with <b>Grafana</b>.",
+        "second-job-task": "Security alert monitoring of heterogeneous systems.",
         "last-job-title": "Frontend Developer",
         "last-job-date": "oct. 2021 - present day",
         "last-job-task": "Frontend Development HTML / CSS / React"
@@ -28,6 +29,7 @@
         "title":"Projects&nbsp;&nbsp;&nbsp;&nbsp;",
         "first-project-description":"Consult and save recipes from different countries to consult them at any time!",
         "second-project-description":"Find and select 10 matching numbers, the game will display a confetti when the user has won!",
+        "three-project-description": "Ecommerce where users can filter products by price or category, view purchase history and leave reviews.",
         "project-codebtn": "Code"
     },
     "footer": {
