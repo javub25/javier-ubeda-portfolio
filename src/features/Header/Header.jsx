@@ -16,28 +16,23 @@ const Header = () =>
     }
     return (
         <header className="mobile:p-0 p-5 sticky top-0 w-full mx-auto z-10">
-            <nav className="mx-auto bg-blue-700 dark:bg-blue-600 rounded-md">
+            <nav className="mx-auto bg-[#0057b7] dark:bg-blue-600 rounded-md">
                 <ul className="p-6 mobile:hidden flex flex-wrap items-center justify-between">
                     <ItemsNav />
                 </ul>                
             </nav>
             
 
-            <nav className={`mobile:block bg-blue-700 dark:bg-blue-600`}>
+            <nav className={`mobile:block bg-[#0057b7] dark:bg-blue-600`}>
                 <FontAwesomeIcon icon={iconNav} className="menu-btn hidden text-white text-3xl mobile:block p-6" 
                     onClick={handleNavMob}/>
 
                     {showNav && 
-                      
                         <ul className="menu text-left p-6 mobile:block">
                             <ItemsNav />
-                        </ul>
-                        
+                        </ul>      
                     }
             </nav>
-
-          
-               
         </header>
     )
 }

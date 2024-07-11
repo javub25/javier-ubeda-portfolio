@@ -12,22 +12,52 @@ const Experience = () =>
                             <li className="mb-10 ms-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-300 dark:bg-gray-100"></div>
                                 <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-white" data-section="experience" data-value="last-job-date">oct. 2021 - actualidad</time>
-                                <h3 className="text-lg font-semibold text-white" data-section="experience" data-value="last-job-title">Desarrollador Frontend</h3>
-                                <p className="text-base font-normal text-white dark:text-white" data-section="experience" data-value="last-job-task">
-                                        Desarrollo Frontend HTML / CSS / React
-                                </p>
+                                <h3 className="text-lg font-semibold text-white pb-[0.5rem]" data-section="experience" data-value="last-job-title">Desarrollador Frontend</h3>
+                                    <ul className="list-disc px-4">
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            HTML5
+                                        </li>
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            CSS3
+                                        </li>
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            React JS
+                                        </li>
+                                    </ul>
                             </li>
                             <li className="mb-10 ms-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-300 dark:bg-gray-100"></div>
                                 <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-white" data-section="experience" data-value="second-job-date">nov. 2020 - jul. 2021</time>
-                                <h3 className="text-lg font-semibold text-white" data-section="experience" data-value="second-job-title">Analista Ciberseguridad Junior</h3>
-                                <p className="text-base font-normal text-white dark:text-white" data-section="experience" data-value="second-job-task">Monitoreo de alertas de seguridad de sistemas heterogéneos con <b>Grafana</b></p>
+                                <h3 className="text-lg font-semibold text-white pb-[0.5rem]" data-section="experience" data-value="second-job-title">Analista de Ciberseguridad</h3>
+                                <p className="text-base font-normal text-white dark:text-white pb-[0.5rem]" data-section="experience" data-value="second-job-task">Monitoreo de alertas de seguridad de sistemas heterogéneos.</p>
+                                    <ul className="list-disc px-4">
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            Security Onion
+                                        </li>
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            Grafana
+                                        </li>
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            Elastic Search
+                                        </li>
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            Docker
+                                        </li>
+                                    </ul>
                             </li>
                             <li className="ms-4">
                                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-300 dark:bg-gray-100"></div>
                                 <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-white" data-section="experience" data-value="first-job-date">abr. 2015 - jul. 2015</time>
-                                <h3 className="text-lg font-semibold text-white" data-section="experience" data-value="first-job-title">Maquetador Web</h3>
-                                <p className="text-base font-normal text-white dark:text-white" style={{textWrap:"balance"}} data-section="experience" data-value="first-job-task">Creación de landing empresarial con <b>WordPress</b> y gestión de e-commerce con <b>WooCommerce</b>.</p>
+                                <h3 className="text-lg font-semibold text-white pb-[0.5rem]" data-section="experience" data-value="first-job-title">Maquetador Web</h3>
+                                <p className="text-base font-normal text-white dark:text-white pb-[0.5rem]" style={{textWrap:"balance"}} data-section="experience" data-value="first-job-task">Creación de landing empresarial y gestión de ecommerce.</p>
+                                    <ul className="list-disc px-4">
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            WordPress
+                                        </li>
+                                        <li className="text-base font-normal text-white dark:text-white">
+                                            WooCommerce
+                                        </li>
+                                    </ul>
                             </li>
                     </ol>   
                 </section>
